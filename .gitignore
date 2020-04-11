@@ -3,4 +3,6 @@ BUILDROOT/*
 RPMS/*
 SPECS/*
 SRPMS/*
-libmms*.tar.gz
+.directory
+*.tar.gz
+*.rpm

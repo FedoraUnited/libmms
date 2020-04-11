@@ -1,6 +1,6 @@
 Name:          libmms
 Version:       0.6.4
-Release:       4%{?dist}
+Release:       5%{?dist}
 Summary:       Library for Microsoft Media Server (MMS) streaming protocol
 License:       LGPLv2+
 Group:         System Environment/Libraries
@@ -56,6 +56,9 @@ rm $RPM_BUILD_ROOT%{_libdir}/%{name}.la
 
 
 %changelog
+
+* Sat Apr 11 2020 David Va <davidva AT tuta DOT io> - 0.6.4-5
+- Rebuilt
 
 * Fri Jul 08 2016 David Vásquez <davidjeremias82 AT gmail DOT com> - 0.6.4-4
 - Massive rebuild
